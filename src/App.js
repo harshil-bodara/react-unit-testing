@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
+        <i>learn react</i>
       <Switch>
         <Route strict exact path="/" component={TodoPage}/>
         <Route strict exact path="/followers" component={FollowersPage}/>
